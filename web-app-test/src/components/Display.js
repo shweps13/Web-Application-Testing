@@ -3,7 +3,7 @@ import 'semantic-ui-css/semantic.min.css'
 import { Statistic } from 'semantic-ui-react'
 
 function Display(props) {
-console.log(props)
+// console.log(props)
   return (
     <div className="DisplayApp">
         <Statistic>

@@ -18,7 +18,7 @@ function App() {
       <div className="Main-Field">
         <h2>Super Baseball Sport</h2>
         <Display balls={balls} strikes={strikes}/>
-        <Dashboard />
+        <Dashboard balls={balls} strikes={strikes} setBalls={setBalls} setStrikes={setStrikes}/>
       </div>
     </div>
   );
