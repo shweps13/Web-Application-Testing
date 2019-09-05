@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Display from './components/Display'
+import 'semantic-ui-css/semantic.min.css'
 
 function App() {
 
@@ -11,7 +13,8 @@ function App() {
         </h1>
       </header>
       <div className="Main-Field">
-        <p>Ololo</p>
+        <h2>Super Baseball Sport</h2>
+        <Display />
       </div>
     </div>
   );
