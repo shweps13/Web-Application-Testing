@@ -16,19 +16,19 @@ function Dashboard(props) {
     
     // Function for balls
     const ball = ball => {
-    if (ball < 4) {
-        props.setBalls(ball => ball + 1);
-    } else {
-        props.setBalls((ball = 0));
-    }
+        if (ball < 4) {
+            props.setBalls(ball => ball + 1);
+        } else {
+            props.setBalls((ball = 0));
+        }
     };
 
     // Function for fouls
     const foul = foul => {
         if (foul === 0) {
-        props.setStrikes(foul => foul + 1);
-    } else if (foul === 1) {
-        props.setStrikes(foul => foul + 1);
+            props.setStrikes(foul => foul + 1);
+        } else if (foul === 1) {
+            props.setStrikes(foul => foul + 1);
         } else {
             props.setStrikes(foul => foul + 0);
         }
